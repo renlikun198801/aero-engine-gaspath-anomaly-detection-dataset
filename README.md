@@ -108,20 +108,4 @@ X_test, y_test = test[FEATURES].to_numpy(), test["label"].to_numpy()
 
 The data are simulated. They reproduce the qualitative behaviour of gas-path measurements (nonlinear coupling, condition-dependent spread, weak fault signatures under noise) but they are not a substitute for run-to-failure or fleet data. The degradation modes are single-component and steady-state; transient operation, multi-fault combinations, sensor faults, and real engine-to-engine variation are not represented.
 
-## Citation
 
-If you use this dataset, please cite the accompanying manuscript:
-
-```bibtex
-@article{ren_nsdeepsvdd,
-  author  = {Ren, Likun and Yu, Xiaolin and Xie, Zhenbo and Qin, Qinhai and Xie, Jing},
-  title   = {Flight-Envelope-Adaptive One-Class Anomaly Detection for Aircraft Engine Gas-Path Health Monitoring},
-  journal = {IEEE Aerospace and Electronic Systems Magazine},
-  note    = {under review},
-  year    = {2026}
-}
-```
-
-## License
-
-Released for research use. A `LICENSE` file should be added before publication; CC BY 4.0 is recommended for the data.
